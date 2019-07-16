@@ -36,8 +36,8 @@ public class BasicStringUtilsTest {
     @Test
     public void reverseWordsTest() {
         // Given
-        String input = "she sells sea shells";
-        String expected = "ehs slles aes sllehs";
+        String input = "she sells sea shells ";
+        String expected = "ehs slles aes sllehs ";
 
         // When
         String actual = BasicStringUtils.reverseWords(input);
