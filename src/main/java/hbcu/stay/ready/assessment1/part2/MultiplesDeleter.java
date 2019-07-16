@@ -9,7 +9,14 @@ public class MultiplesDeleter {
      * @return all ints which are not divisible by 2
      * given an array of integers, named `ints` return an identical array with evens removed
      */
-    public static Integer[] deleteEvens(Integer[] ints) {
+    public static Integer [] deleteEvens(Integer[] ints) {
+        Integer[] integer = ints;
+
+        for(int x=0; x< integer.length; x++){
+            if(ints % 2 == 0)
+        }
+
+
         return null;
     }
 
@@ -19,6 +26,7 @@ public class MultiplesDeleter {
      * given an array of integers, named `ints` return an identical array with odds removed
      */
     public static Integer[] deleteOdds(Integer[] ints) {
+
         return null;
     }
 
